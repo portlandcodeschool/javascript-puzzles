@@ -7,7 +7,7 @@ function square(num) {
   return result
 }
 
-result = square(4)
-result2 = square(2)
-var subtracted = result - result2
+var result1 = square(4)
+var result2 = square(2)
+var subtracted = result1 - result2
 console.log(subtracted)
