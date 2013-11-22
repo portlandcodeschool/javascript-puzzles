@@ -5,10 +5,10 @@
 var evenNumbers = []
 
 function addEvensOnly(num) {
-  if (num % 2 === 0)
+  if (num % 2 === 0) {
     console.log(num, 'is even, adding!')
     evenNumbers.push(num)
-}
+}}
 
 addEvensOnly(0)
 addEvensOnly(1)
